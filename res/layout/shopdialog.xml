@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shopdialogbg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="推薦"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="#6A5ACD"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@drawable/purpleline"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shop1"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="16sp"
+            android:textColor="#5555FF"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Info"
+                android:textSize="8sp"
+                android:gravity="top"
+                android:textColor="#5555FF"/>
+
+            <Button
+                android:id="@+id/button1_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:text="Direct"
+                android:textSize="8sp"
+                android:gravity="top"
+                android:textColor="#5555FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@drawable/purpleline"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shop2"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="16sp"
+            android:textColor="#5555FF"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Info"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+
+            <Button
+                android:id="@+id/button2_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Direct"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@drawable/purpleline"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shop3"
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="16sp"
+            android:textColor="#5555FF"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Info"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+
+            <Button
+                android:id="@+id/button3_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Direct"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@drawable/purpleline"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shop4"
+            android:layout_width="169dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="16sp"
+            android:textColor="#5555FF"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Info"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+
+            <Button
+                android:id="@+id/button4_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Direct"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_gravity="center"
+        android:background="@drawable/purpleline"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/shop5"
+            android:layout_width="172dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="無"
+            android:textSize="16sp"
+            android:textColor="#5555FF"/>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Info"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+
+            <Button
+                android:id="@+id/button5_1"
+                android:layout_width="match_parent"
+                android:layout_height="33dp"
+                android:gravity="top"
+                android:text="Direct"
+                android:textSize="8sp"
+                android:textColor="#5555FF"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:text="關閉"
+            android:textColor="#5555FF"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

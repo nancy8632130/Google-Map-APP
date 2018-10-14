@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/introducebg1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_gravity="center"
+            android:text="說明"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="88dp"
+            android:textSize="18dp"
+            android:text="" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bg" />
+
+            <TextView
+                android:id="@+id/text_map"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="點擊Map鍵 : 進入地圖，使用者則可輸入目的地開始導航\導覽。" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tran" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/car_side" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/walk" />
+
+            <TextView
+                android:id="@+id/text_mapin"
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="點擊 : 使用者可選擇大眾運輸/開車/走路來導航到目的地。"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bus2" />
+
+            <TextView
+                android:id="@+id/text_maptran"
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="點擊 : 大眾運輸導航時，可查看公車詳細資訊(預估時間/發車時間)。"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/shop" />
+
+            <TextView
+                android:id="@+id/text_mapshop"
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="點擊 : 導覽時，可查看推薦商店資訊，並可導航到此商店或連結到Google的介紹。"
+                android:textSize="14dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bg2" />
+
+            <TextView
+                android:id="@+id/text_set"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="14dp"
+                android:text="點擊Setting鍵 : 進入設定介面，使用者可在此設定偏好。" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button_close"
+            android:layout_width="65dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:textColor="#444444"
+            android:textSize="18sp"
+            android:text="關閉"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
